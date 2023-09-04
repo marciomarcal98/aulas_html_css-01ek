@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Formulário</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome">
+        </div>
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" placeholder="Digite sua senha">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Digite seu email">
+        </div>
+        <div>
+            <label for="nascimento">Data de Nascimento:</label>
+            <input type="date" id="nascimento">
+        </div>
+
+        <div>
+            <p>Selecione seu gênero:</p>
+
+            <div>
+                <input type="radio" name="genero" id="feminino">
+                <label for="feminino">Feminino</label>
+            </div>
+            <div>
+                <input type="radio" name="genero" id="masculino">
+                <label for="masculino">Masculino</label>
+            </div>
+            <div>
+                <input type="radio" name="genero" id="outros">
+                <label for="outros">Outros</label>
+            </div>
+        </div>
+
+        <div>
+            <label for="estado">Selecione um estado:</label>
+            <select name="estado" id="estado">
+                <option selected disabled>Selecione...</option>
+                <option value="sp">São Paulo - SP</option>
+                <option value="rj">Rio de Janeiro - RJ</option>
+                <option value="es">Espírito Santo - ES</option>
+                <option value="mg">Minas Gerais - MG</option>
+            </select>
+        </div>
+
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
